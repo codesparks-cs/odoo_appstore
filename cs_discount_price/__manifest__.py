@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     "name": "Discount On Price",
-    "version": "17.0.0.1",
+    "version": "17.0.0.0",
     "summary": "Calculates Discount percentage on change of Discount Price.",
     'sequence': 1,
     "discription": """
@@ -11,9 +11,9 @@
     "website": "",
     "license": "LGPL-3",
     "category": "Invoicing",
-    "depends": ["base", "account"],
+    "depends": ["base", "account", "sale_management"],
     "data": [
-        "views/account_move_inherit.xml"
+        "views/sale_account_inherit.xml"
     ],
     "images": ['static/description/banner.png'],
     "installable": True,
